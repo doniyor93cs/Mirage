@@ -24,6 +24,8 @@ html {
 
 .row>[class*="col-"] {
     display: block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .between {
@@ -111,9 +113,10 @@ html {
     order: 13;
 }
 
- .offset-1 {
+.offset-1 {
     margin-left: 8.333333%;
-  }
-  .offset-2 {
+}
+
+.offset-2 {
     margin-left: 16.666667%;
-  }
+}
